@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shunya</title>
+    <link rel="stylesheet" href="subsystem_page.css">
+    <link rel="stylesheet" href="./practice.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="nav">
+            <div id="left">
+                <a href="index.html" id="logo-btn"><img src="./shunya_logo.png" id="logo-img"></a>
+                <button id="bar-button"><img src="./button-bar.png"></button>
+            </div>
+            <div id="right">
+                <li id="nav-list">
+                    <a href="index.html">Home</a>
+                    <a href="#">Activities</a>
+                    <!-- <a href="./team_members.html">Team</a> -->
+                    <ul id="team">
+                        <li id="team-relative">Team ▾</li>
+                        <ul id="team-list">
+                            <li>Faculty</li>
+                            <li><a href="./team_members.html">Student</a></li>
+                        </ul>
+                    </ul>
+                    <!-- <a href="#">Projects</a> -->
+                    <ul id="project">
+                        <li id="project-relative">Project ▾</li>
+                        <ul id="project-list">
+                            <li><a href="project_1.html">USSD 2023</a></li>
+                            <li><a href="project_2.html">USSD 2021</a></li>
+                            <li><a href="project_3.html">SDC 2018</a></li>
+                            <li><a href="project_4.html">SDE 2014</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul id="subsystems">
+                        <li id="to-relative">Subsystems ▾</li>
+                        <ul id="subsystem-list">
+                            <li><a href="./architecture_sub.html">Architecture</a></li>
+                            <li><a href="./civil_sub.html">Civil</a></li>
+                            <li><a href="./comunication_sub.html">Communication</a> </li>
+                            <li><a href="./Electrical_sub.html">Electrical</a></li>
+                            <li><a href="./mechanical_sub.html">Mechanical</a></li>
+                            <li><a href="./market_sub.html">Market Analysis</a></li>
+                        </ul>
+                    </ul>
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </div>
+        </div>
+
+        <!-- subsyste name -->
+        <div id="subs_name">Civil</div>
+
+        <!-- Carousel && subs_image -->
+        <div id="carousel">
+            <img id="carousel-image" src='./Architecture.jpg'></img>
+        </div>
+        <!-- subsystem -->
+        <div id="subsystem-data"></div>
+
+        <!-- code from php file -->
+        <!-- <div id='name subs_name'>Architecture</div> -->
+        <div id='subsysem'>
+            <div id='desc-task'>
+                <div id='desc'>Civil Subsystem includes the students interested in or studying construction
+                    management, construction materials, and structural analysis of the building.
+                    The civil division is responsible for the structural design and creating drawings
+                    in collaboration with architects. Furthermore, in collaboration with the
+                    mechanical subsystem, the team selects materials after multiple energy
+                    simulations. Preparing BIM and implementing the Construction Management
+                    Plan is mainly handled by the Civil Subsystem.
+                </div>
+                <div id='task'>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem numquam, velit repellat
+                            provident quia iste molestiae qui aut impedit voluptatem excepturi quam incidunt soluta non
+                            consequuntur, possimus ipsa odio aliquam!</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores velit unde illo
+                            voluptatibus, suscipit omnis facere accusamus ea corrupti dignissimos voluptas. Vitae a enim
+                            dolorem harum sunt provident eius?</li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore. Facilis rerum non
+                            consequuntur maxime accusamus! Obcaecati pariatur vel magnam quos neque deserunt repellat
+                            rerum quae, sapiente eligendi omnis laborum.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id='members'>
+                <ul>
+                    <li>Aaditi Thete</li>
+                    <li>Anmol Bhatwalkar</li>
+                    <li>Inder Chetia</li>
+                    <li>Piyush Raj</li>
+                    <li>Sushmita Mastud</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./javascript.js"></script>
+
+</html>

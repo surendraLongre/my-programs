@@ -1,0 +1,142 @@
+* {
+    transition: all 0.2s;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 5px 0px 10px 0px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: radial-gradient(circle, #fff, rgb(230, 230, 230));
+    padding-bottom: 50px;
+}
+
+#container {
+    margin: 50px calc(10px + 2vw);
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 3vw;
+    margin-bottom: 50px;
+}
+
+#home {
+    font-weight: 500;
+    font-size: calc(12px + 0.5vw);
+    padding: 5px 10px;
+    background: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#logo-image {
+    height: calc(2vh + 3vw);
+}
+
+h1 {
+    text-align: center;
+    color: #9c1c27;
+    text-shadow: -1px 2px #316377;
+    font-size: calc(16px + 2vw);
+}
+
+hr {
+    height: 4px;
+    background: linear-gradient(to left, rgb(230, 230, 230), #9c1c27, rgb(228, 228, 228));
+}
+
+
+.name {
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: calc(16px + 0.3vw);
+    text-align: center;
+    text-transform: capitalize;
+    /* word-break:break-all; */
+}
+
+.name-position {
+    position: relative;
+    top: -50px;
+}
+
+.designation {
+    font-weight: 500;
+    font-size: calc(12px + 0.5vw);
+    text-align: center;
+}
+
+/* 
+.member-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+
+.member-details img {
+    max-width: 100%;
+    clip-path: circle();
+    object-fit: contain;
+}
+
+.details {
+    width: 100%;
+    height: 100%;
+}
+ */
+
+
+.team-members img,
+#team_leader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle();
+    /* max-height: 100%; */
+}
+
+.team-members {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(calc(100px + 10vw), 1fr));
+}
+
+#team_leader {
+    margin: 0px auto !important;
+    width: calc(200px + 100vw/15);
+    height: max-content;
+    position: relative;
+    top: 30px;
+}
+
+ion-icon {
+    cursor: pointer;
+    color: blue;
+    position: absolute;
+    bottom: 0px;
+    font-size: 1.2em;
+}
+
+ion-icon:hover {
+    font-size: 1.1em;
+    opacity: 0.5;
+}
+
+ion-icon:active {
+    color: #b61351;
+    opacity: 1;
+    font-size: 1.2em;
+}
+
+#anant {
+    font-size: calc(9px + 0.5vw);
+}
