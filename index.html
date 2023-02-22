@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shunya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="practice.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav">
+            <div id="left">
+                <a href="index.html" id="logo-btn"><img src="./shunya_logo.png" id="logo-img"></a>
+                <button id="bar-button"><img src="./button-bar.png"></button>
+            </div>
+            <div id="right">
+                <li id="nav-list">
+                    <a href="index.html">Home</a>
+                    <a href="#">Activities</a>
+                    <!-- <a href="./team_members.html">Team</a> -->
+                    <ul id="team">
+                        <li id="team-relative">Team ▾</li>
+                        <ul id="team-list">
+                            <li><a href="#">Faculty</a></li>
+                            <li><a href="./team_members.html">Student</a></li>
+                            <!-- <li>Alumni</li> -->
+                        </ul>
+                    </ul>
+                    <!-- <a href="#">Projects</a> -->
+                    <ul id="project" class="project">
+                        <li id="project-relative" class="project">Project ▾</li>
+                        <ul id="project-list">
+                            <li><a href="project_1.html" class="project">USSD 2023</a></li>
+                            <li><a href="project_2.html" class="project">USSD 2021</a></li>
+                            <li><a href="project_3.html" class="project">SDC 2018</a></li>
+                            <li><a href="project_4.html" class="project">SDE 2014</a></li>
+                        </ul>
+                    </ul>
+
+                    <ul id="subsystems">
+                        <li id="to-relative">Subsystems ▾</li>
+                        <ul id="subsystem-list">
+                            <li><a href="./architecture_sub.html">Architecture</a></li>
+                            <li><a href="./civil_sub.html">Civil</a></li>
+                            <li><a href="./comunication_sub.html">Communication</a> </li>
+                            <li><a href="./Electrical_sub.html">Electrical</a></li>
+                            <li><a href="./mechanical_sub.html">Mechanical</a></li>
+                            <li><a href="./market_sub.html">Sponsorship</a></li>
+                        </ul>
+                    </ul>
+                    <a href="contact_us.html">Contact Us</a>
+                </li>
+            </div>
+        </div>
+        <!-- <div id="mission-aim">
+            mission and aim
+        </div>
+
+        <div id="main-content">
+            <div id="news">
+                news
+
+            </div>
+            <div id="main-info">
+                main-info
+            </div> -->
+
+        <div id="content">
+            <div id="parent">
+                <img src="./living_room.png" id="living-room" alt="living_room" usemap="#living_room">
+                <div class="tooltip mechanics" id="mechanics">Mechanical <br> Subsystem</div>
+                <div class="tooltip electrical">Electrical <br> Subsystem</div>
+                <div class="tooltip communication">Communication <br> Subsystem</div>
+                <div class="tooltip sponsership">Sponsorship <br>Subsystem</div>
+                <div class="tooltip architecture">Architecture <br>Subsystem</div>
+
+                <!-- images -->
+                <a href="./architecture_sub.html"><img src="./sofa.png" alt="sofa-image" id="sofa"></a>
+                <a href="./Electrical_sub.html"><img src="./light_bulb.png" alt="light-bulb" id="light_bulb"></a>
+                <a href="./comunication_sub.html"><img src="./tv.png" alt="tv" id="tv"></a>
+                <a href="mechanical_sub.html"><img src="./vent.png" alt="vent" id="vent"></a>
+                <a href="#"><img src="./Pngtree—green money plant_6957632.png" alt="money_plant" id="money_plant"></a>
+                <a href="./comunication_sub.html"><img src="./shunya_logo_paint_edited.png" alt="shunya-logo" id="tv-shunya-logo"></a>
+                <a href="Electrical_sub.html"><img src="./green_light.png" alt="green-light" id="green_light"></a>
+                <a href=""><img src="./wind_window.png" alt="wind-window" id="wind_window"></a>
+            </div>
+            <!-- <map name="living_room" id="map_living_room">
+                <area shape="rect" coords="49, 42, 212, 105" alt="computer" class="mechanics" href="www.google.com"
+                    style="cursor:pointer;">
+                <area shape="rect" coords="895, 31, 971, 76" alt="computer" class="electrical" href="www.google.com"
+                    style="cursor:pointer;">
+                <area shape="rect" coords="319, 128, 730, 389" alt="computer" class="communication"
+                    href="www.google.com" style="cursor:pointer;">
+                <area shape="rect" coords="30, 595, 89, 696" alt="computer" class="sponsership" href="www.google.com"
+                    style="cursor:pointer;">
+                <area shape="rect" coords="155, 536, 873, 700" alt="computer" class="architecture" href="www.google.com"
+                    style="cursor:pointer;">
+            </map> -->
+
+        </div>
+
+
+        <div id="footer">
+            <!-- <section id="footer-text">Connect with us<br></section>
+            <div id="footer-icons">
+                <a href="#"><img id="instagram-icon" src="./instagram-icon.png" title="instagram"></a>
+                <a href="#"><img id="twitter-icon" src="./twitter-icon.png" title="twitter"></a>
+                <a href="#"><img id="facebook-icon" src="./facebook-icon.png" title="facebook"></a>
+            </div> -->
+
+            <a href="index.html" id="footer-logo-container"><img src="./shunya_logo.png" id="footer-logo"></a>
+            <a href="#" class="underline" id="faq">FAQ</a>
+            <a href="#" class="underline" id="contact-us">Contact Us</a>
+            <a href="#" class="underline" id="blogs">Blogs</a>
+            <div id="newsletter-div">
+                <a id="subscribe-tag" class="newsletter">Subscribe to our</a>
+                <a id="newsletter" class="newsletter">Newsletter</a>
+            </div>
+            <form method="post">
+                <input type="name" name="username" placeholder="Name" class="newsletter" title="name">
+                <input type="email" name="email" placeholder="Email" class="newsletter" title="email">
+                <input type="submit" name="submit" id="submit">
+            </form>
+            <a href="#"></a>
+            <div id="social-media">
+                <a href="https://www.instagram.com/teamshunya_iitb/" target="_blank"><img id="instagram-icon"
+                        src="./instagram-icon.png" title="instagram"></a>
+                <a href="#"><img id="twitter-icon" src="./twitter-icon.png" title="twitter"></a>
+                <a href="#"><img id="facebook-icon" src="./facebook-icon.png" title="facebook"></a>
+            </div>
+            <div id="final-text">
+                <div>&copy Copyright 2012-2022, <strong>Team SHUNYA</strong></div>
+                <div>Made with&nbsp<img
+                        src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png'
+                        alt="unable to show"> &nbsp &nbsp&nbsp&nbsp&nbsp<span id='in-india'>in India</span></div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+
+</html>
